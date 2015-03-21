@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.theappsignal.lauresoft.theappsignal.contacts.ContactsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Emergency Contact"
+        android:id="@+id/btn_addContact"/>
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="No emergency contacts added."
+    android:gravity="center"
+    android:id="@+id/txt_noContacts"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactList">
+        </ListView>
+
+</LinearLayout>
